@@ -1,122 +1,159 @@
 body
 {
-  color: green;
-  font-family: Verdana, Arial, Geneva, Arial Black;
-  font-weight: normal;
-  background-color: #ffcf79;
-  font-size: 25px;
-  /*background-image: url(water.jpg);*/
+  background-color: #000;
+  margin: 0px;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+  color: white;
+  background-image:   linear-gradient(black, #7851a9);
+  font-family: "Times New Roman";
+  font-size: 14px;
 }
 
-h1
+img
 {
-  color: green;
-  /*border-bottom: 1px solid black*/
-  text-decoration: underline;
-  /*text-decoration: line-through;*/
-    font-size: 150%;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-h2
+#header
 {
-  color: green;
+  background-color: #FFF;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+ul
+{
+  padding: 5px;
+  background-color: #purple;
   text-align: center;
-  text-decoration: underline;
-  font-size: 1.2em;
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-h3
+ul li
 {
-  color: green;
-  text-decoration: underline;
+  /*display: inline;*/
+  margin-bottom: 5px;
+  padding: 1px;
+  background: white;
 }
 
-#para1Homepage
+ul li a
 {
-  color: Blue;
-  /*font-size: 25px;*/
-  /*font-family: cursive;*/
+  text-decoration: none;
+  font-family: arial;
+  /*padding: .2em 1em;*/
+  color: #000;
+  background-color: #fff;
 }
 
-
-p.Para3
+ul li a:hover
 {
-  color: Purple;
-  font-style: italic;
-  /*font-style: oblique;*/
-/*font-size: 15px;*/
+  color: #fff;
+  background-color: #000;
 }
 
-p.paragraph
+#navbar ul
 {
-  font-size: 15px;
-  line-height: 1.5em;
-  background-color: #e5dfe7;
+  padding: 5px;
+  background-color: #fff;
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#navbar ul li
+{
+  display: inline;
+}
+
+#navbar ul li a
+{
+  text-decoration: none;
+  font-family: arial;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #000;
+}
+
+#navbar ul li a:hover
+{
+  color: #000;
+  background-color: #7851a9;
+}
+
+.main
+{
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
   padding: 20px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  background-image: url(water.jpg);
-  border-radius: 10px;
+  font-size: 110%;
+  background-image: url(stallion2.jpg);
 }
 
-#Para5Homepage
-{
-  font-size: 15px;
-  line-height: 1.5em;
-  background-color: #e5dfe7;
-  padding: 20px 20px 20px 70px;
-  border: #296a64 thick ridge;
-  margin: 20px;
-  margin-top: 50px;
-  margin-left: 400px;
-}
-
-img.imagec
+.vid
 {
   display: block;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 3px;
-  background-color: silver;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#divmain
+.sideleft
 {
-  color: black;
+  background-color: #7851a9;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 105%;
+  float: left;
+  width: 260px;
+  clear: left;
 }
 
-#divbass
+.sideright
 {
-  color: black;
+  background-color: #7851a9;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width: 260px;
+  clear: right;
 }
 
-.highlight
+
+
+h1, h2, ol
 {
-  background-color: #ffff00;
+  background-color: #7851a9;
+  padding: 10px;
+  margin: 0px;
 }
 
-.divcontent
+p
 {
-  color: Black;
-}
-
-a:link
-{
-  color: blue;
-}
-
-a:visited
-{
-  color: #8c8c9d;
-}
-
-a:hover
-{
-  color: #f15a51;
+  background-color: #7851a9;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
