@@ -109,6 +109,7 @@ ul li a:hover
   margin-right: auto;
   max-width: 100%;
   max-height: 100%;
+  padding: 10px;
 }
 
 .sideleft
@@ -156,6 +157,19 @@ p
   padding: 10px;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+#footer
+{
+  background-image:   linear-gradient(black, #7851a9);
+  border-radius: 5px;
+  margin: 10px;
+  height: 60px;
+  clear: both;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 90%
 }
 
 @media (max-width: 1000px)
